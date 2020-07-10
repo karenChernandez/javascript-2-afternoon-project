@@ -15,7 +15,11 @@
 */
 
 //Code here
-
+let me={
+  name: 'Karen',
+  age: 31,
+}
+alert(me.name)
 ////////// PROBLEM 2 //////////
 
 /*
@@ -24,6 +28,14 @@
 */
 
 //Code here
+let favoriteThings ={
+  band:'Clams Casino',
+  food: 'Seafood',
+  person: 'Friend',
+  book: 'What the fact?!',
+  movie: 'dont remember',
+  holiday: 'valentines day'}
+
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car
@@ -31,6 +43,11 @@
 */
 
 //Code here
+favoriteThings.car='Soltice'
+favoriteThings.brand ='Potiac'
+
+
+
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -38,7 +55,8 @@
 */
 
 //Code here
-
+favoriteThings.food = 'Chicken Nuggets'
+favoriteThings.book = 'Harry Potter'
 ////////// PROBLEM 3 //////////
 
 /*
@@ -50,13 +68,17 @@
 */
 
 //Code here
-
+let backPack={}
+let item = 'firstPocket'
+backPack[item]=item
+backPack['firstPocket'] = 'chapstick'
+backPack.color='red'
 /*
   After you do the above, alert your entire backPack object.
 */
 
 //Code here
-
+alert(backPack)
 /*
 You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
@@ -85,7 +107,8 @@ var user2 = {
 */
 
 //Code Here
-
+user2.name ='Bryan G. Smith'
+user2.email ='bryan.smith@devmounta.in'
 /////////////////////// EXTRA PRACTICE PROBLEMS BELOW ////////////////////
 ////////// MOVE ONTO NEXT SECTION BEFORE WORKING ON THESE ////////////////
 
@@ -96,20 +119,21 @@ var user2 = {
 */
 
 //Code Here
-
+// methodCollection={}
 /*
   Now add two methods (functions that are properties on objects) to your methodCollection object.
   One called 'alertHello' which alerts 'hello' and another method called 'logHello' which logs 'hello' to the console.
 */
 
 //Code Here
-
+// methodCollection.
 /*
   Now call your alertHello and logHello methods.
 */
 
 //Code Here
-
+// alertHello()
+// logHello()
 ////////// PROBLEM 6 //////////
 
 /*
@@ -118,7 +142,9 @@ var user2 = {
 */
 
 //Code Here
-
+// function makePerson(name, birthday, ssn){
+//   return newObj{}
+// }
 ////////// PROBLEM 7 //////////
 
 /*
